@@ -15,8 +15,7 @@ services:
 
   django_app:
     build:
-      context: .
-    image: django_app
+    image: shiv0786/test-repo:02
     container_name: "django_cont"
     ports:
       - "8000:8000"
